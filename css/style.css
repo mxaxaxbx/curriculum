@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(82, 86, 89);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.page {
+    background-color: #FFF;
+    margin: 0 auto;
+    width: 50vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+div.contact-section {
+    background-color: #293e49;
+    min-height: 100%;
+    bottom: 0;
+    color: #FFF;
+}
+
+.col-3 {
+    width: 35%;
+}
+
+div.content {
+    padding: 80px 15px 100px 40px;
+}
+
+div.content h3{
+    font-weight: 400;
+    color: rgb(216, 216, 216);
+}
+
+div.content h2{
+    font-weight: 300;
+}
+
+div.content a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+div.content p{
+    word-wrap: break-word;
+}
+
+div.content ul{
+    list-style-type: none;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+
+div.content ul li::before{
+    content: "✔ ";
+}
+
+.text-grey {
+    color: #666;
+}
